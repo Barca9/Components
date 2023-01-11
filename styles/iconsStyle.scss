@@ -1,0 +1,33 @@
+$iconColor: inherit;
+
+.icon_after{
+    fill: #A0627B;
+    order: 1;
+    padding-left: 5px;
+}
+
+.icon_before{
+    fill: #A0627B;
+    order: -1;
+    padding-right: 5px;
+}
+
+.sheqelAfter{
+    fill: #131212;
+    order: 1;
+    padding-left: 2px;
+}
+
+.icon_chip_white{
+    width: 25px;
+    height: 25px;
+    fill: #FFFFFF;
+    padding: 0 3px;
+}
+
+.icon_chip_black{
+    width: 25px;
+    height: 25px;
+    fill: #131212;
+    padding: 0 3px;
+}

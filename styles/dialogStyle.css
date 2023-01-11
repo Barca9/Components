@@ -1,0 +1,28 @@
+.dialog-window {
+  background: #F9F9F9;
+  box-shadow: 7px 7px 20px 10px rgba(46, 103, 140, 0.2), 0 6px 60px rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
+  width: 500px;
+  height: 250px;
+  margin: 20px;
+}
+
+.dialog-window__title {
+  font-size: 16px;
+  padding: 30px 40px;
+}
+
+.dialog-window__buttons-change {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 50px;
+}
+
+.dialog-window__buttons-navigation {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=dialogStyle.css.map */

@@ -1,0 +1,53 @@
+input[type="text"] {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.input-group{
+  margin-top: 20px;
+  margin-left: 15px ;
+  border: 0.5px solid #B7CEE8;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0 6.07407px 12.1481px rgba(46, 103, 140, 0.12);
+  color: #A79CA0;
+  width: 400px;
+  padding-top: 12px;
+}
+.text-field{
+  margin: 0 auto;
+  width: 350px;
+}
+
+.text-field__input{
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  /*высота элемента определяется путём сложения 2.25rem (font-size * line-height + padding-top + padding-bottom) и 2px (ширина верхней и нижней границы);*/
+  padding: 1rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  outline: 0;
+  font-weight: 400;
+  color: #A79CA0;
+  background-color: transparent;
+  box-shadow: inset 0px -1px 0px #E9E3E5;
+}
+
+.text-field__label{
+  display: block;
+  margin-bottom: 0.25rem;
+  transform: translateY(-1.5rem);
+  transition: 0.5s;
+  line-height: 1rem;
+  color: #A79CA0;
+}
+
+.text-field__input:focus + .text-field__label,
+.text-field__input:valid + .text-field__label {
+  font-size: 10px;
+  transform: translateY(-3rem);
+  color: #B79BA6;
+}
+

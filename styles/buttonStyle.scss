@@ -1,0 +1,107 @@
+$colorWhite: #fff;
+$colorRed: #A0627B;
+
+.button{
+  margin: 10px;
+  padding: 5px 14px;
+  line-height: 16px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-family: inherit;
+  box-shadow: 2px 1px 4px rgba(99, 93, 96, 0.3);
+  border-radius: 4px;
+  color: $colorRed;
+}
+
+.button_theme_white{
+  background: $colorWhite;
+  color: $colorRed;
+  cursor: pointer;
+  &:hover{
+    color: #9e3660;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+  }
+  &:active{
+    color: $colorRed;
+    box-shadow: 0 6.07407px 12.1481px rgba(46, 103, 140, 0.12);
+  }
+}
+
+.button_theme_red{
+  background: $colorRed;
+  color: $colorWhite;
+  cursor: pointer;
+  &:hover{
+    background: #9e3660;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+  }
+  &:active{
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.button_theme_price{
+  padding: 8px 0;
+  min-width: 120px;
+  background: $colorWhite;
+  border: 0.5px solid $colorRed;
+  border-radius: 10px;
+  color: #131212;
+  &:hover{
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+    border: 0.5px solid #9e3660;
+  }
+  &:active{
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.button_disabled{
+  box-shadow: 2px 1px 4px rgba(99, 93, 96, 0.3);
+  background: #F5F2F2;
+  cursor: default;
+  color: rgba(160, 98, 123, 0.4);
+}
+
+.button_size_normal{
+  padding: 8px 0;
+  min-width: 120px;
+  line-height: 22px;
+ }
+
+.button_size_big{
+  min-width: 260px;
+  line-height: 22px;
+  padding: 10px 0;
+}
+.button_size_small{
+  padding: 3px 10px;
+  font-size: 11px;
+}
+
+.button_color_text_black{
+  color: #131212;
+}
+
+.button_color_text_green{
+  color: #37A834;
+}
+
+.button_color_text_blue{
+  color: #029AE4;
+}
+
+.button_color_text_red{
+  color: $colorRed;
+}
+
+.button_background_pink{
+  background-color: #f5dfe8;
+}
+
+
+
+
